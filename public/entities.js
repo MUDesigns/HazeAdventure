@@ -134,6 +134,6 @@ var BootsEntity = me.CollectableEntity.extend({
     onCollision: function(res, obj) {
         this.collidable = false;
         me.game.remove(this)
-        obj.gravity = obj.gravity/2
+        obj.gravity = obj.gravity/1.7
     }
 })
